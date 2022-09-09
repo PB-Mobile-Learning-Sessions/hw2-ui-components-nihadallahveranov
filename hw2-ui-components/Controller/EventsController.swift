@@ -1,19 +1,18 @@
 //
-//  ViewController.swift
+//  EventsController.swift
 //  hw2-ui-components
 //
-//  Created by Aynur Asadova on 2022-08-29.
+//  Created by Nihad Allahveranov on 09.09.22.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class EventsController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
-
 }
-
