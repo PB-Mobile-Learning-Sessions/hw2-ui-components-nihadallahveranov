@@ -26,7 +26,6 @@ class HomeCell: UICollectionViewCell {
         imageView.contentMode = .scaleToFill
         imageView.heightAnchor.constraint(equalToConstant: 25).isActive = true
         imageView.widthAnchor.constraint(equalToConstant: 25).isActive = true
-        self.addSubview(imageView)
         
         return imageView
     }()
@@ -95,7 +94,6 @@ class HomeCell: UICollectionViewCell {
     func setupData(activity: Activity) {
         self.monthLabel.text = activity.month
         self.percentLabel.text = String(activity.done) + "%"
-        self.cell.backgroundColor = UIColor(named: "homeCellPink")
     }
     
 }

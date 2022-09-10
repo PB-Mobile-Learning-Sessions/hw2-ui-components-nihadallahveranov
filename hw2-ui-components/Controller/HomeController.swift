@@ -73,6 +73,7 @@ class HomeController: UIViewController {
         layout.scrollDirection = .vertical
         let view = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
         view.register(HomeCell.self, forCellWithReuseIdentifier: "cell")
+        view.backgroundColor = UIColor(named: "mainColor")
         self.view.addSubview(view)
         
         return view

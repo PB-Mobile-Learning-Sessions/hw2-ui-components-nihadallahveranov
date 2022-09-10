@@ -17,6 +17,7 @@ extension HomeController: UICollectionViewDelegate, UICollectionViewDataSource, 
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! HomeCell
         cell.setupData(activity: MockData.activityHistory[indexPath.row])
         cell.cell.backgroundColor = indexPath.row % 2 == 0 ? UIColor(named: "homeCellPink") : UIColor(named: "homeCellYellow")
+        
         return cell
     }
     
