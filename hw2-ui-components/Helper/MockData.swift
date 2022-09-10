@@ -46,12 +46,12 @@ class MockData {
             title: "Moodboard",
             day: "Today",
             hour: "11:30 pm",
-            status: .done),
+            status: .failed),
         Event(
             title: "Moodboard",
             day: "Today",
             hour: "11:30 pm",
-            status: .done),
+            status: .failed),
         Event(
             title: "Groominh",
             day: "Today",
